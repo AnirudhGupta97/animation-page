@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper" onclick="funNotShow()">
+        <div id="heading_banner">
+            <h2 id="heading_h2" >What are you capable of? </h2>
+            <h6 id="heading_h6">Do not underestimate yourselves .You are more capble<br> <center>than what you think your are capable of 
+        </div>
+        </center></h6>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+
+    </div>
+        <div class="search_area">
+            <div class="search">
+                <div onclick="funShowEthereeum()" class="box1">
+                    <p onclick="funShowEthereeum()">Any token <br>Ethereeum</p>
+                    <script src="ass.js"></script>
+                </div>
+                <div onclick="funShowChain()" class="box2">
+                    <p onclick="funShowChain()">Any chain <br>Select Chain</p>
+                    <script src="ass.js"></script>
+                </div>
+                <div onclick="funShowamount()" class="box3">
+                    <p onclick="funShowamount()">Any amount<br>Filter by amount</p>
+                    <script src="ass.js"></script>
+                </div>
+                <div class="box4">
+                    <button type="button" style="cursor:pointer;width:140px;height: 55px;background-color: 	#6e114381;border: 1px solid  rgb(49, 7, 7);border-radius: 10px;color:#fff;"><span><img src="icons8-search-30.png" alt="" srcset=""></span>Search</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="search_box">
+            <div id="ethereeum" style="width: 50%;height: 199px;background-color: #fff;border-radius: 15px;margin-left: 0px;display: none; padding-left: 20px;">
+                <p>Choose token</p>
+                 <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="68"  fill="blue" class="bi bi-chevron-bar-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 10.146a.5.5 0 0 1 .708 0L8 13.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-4.292a.5.5 0 0 0 .708 0L8 2.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zM1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                      <br>
+                    Ethereeum
+                 </div>
+                  <div ><svg xmlns="http://www.w3.org/2000/svg" width="38" height="68" fill="blue" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                  </svg>
+                  <br>
+                    Cardno
+                    </div>
+            </div>
+            <div id="chain" style="width: 50%;height: 199px;background-color: #fff;border-radius: 15px;margin-left: 170px;display: none; padding-left: 20px;">
+                <p>Select Chain</p>
+                <div>  <li > Ethereum Mainnet</li> 
+                    <button type="button" style="cursor:pointer;width:100px;height: 55px;background-color: 	#6e114381;border: 1px solid  rgb(49, 7, 7);border-radius: 10px;color:#fff; position: absolute; left: 360px; bottom: 90px;"><span></span>select</button>
+                    </div>
+                <div> <li>Ropsten</li>
+                    <button type="button" style="cursor:pointer;width:100px;height: 55px;background-color: 	#6e114381;border: 1px solid  rgb(49, 7, 7);border-radius: 10px;color:#fff; position: absolute; left: 360px; bottom: 15px;"><span></span>select</button>
+                </div>
+                
+            </div>
+            <div id="amount" style="width: 50%;height: 199px;background-color: #fff;border-radius: 15px;margin-left: 310px;display: none; padding-left: 20px;">
+                <p>Filter by account</p>
+                <div ><p>Max amount</p></div>
+                <div> <p style="text-align: left; margin-top: 20px;">Min amout  </p></div>
+            </div>
+    </div>
+   
+
+</body>
+</html>
